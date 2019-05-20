@@ -211,13 +211,13 @@ h6 {
 
 /* Start Layanan Table */
 .layanan-table {
-  border: 1px solid #d1d5da;
+  border: 1px solid #04a346;
   border-collapse: collapse;
   margin: auto;
   width: 100%;
 }
 .layanan-table th {
-  background-color: #f6f8fa;
+  background-color: #f8faf6;
 }
 .layanan-table td {
   text-align: center;
