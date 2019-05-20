@@ -23,8 +23,11 @@ body {
     background-color: crimson;
 }
 .bg-hijau {
-    background-color: #0d8a4b 
+    background-color: #0d8a4b;
 }
+.bg-hijaumuda {
+  background-color: #00b953;
+} 
 /* End Debug */
 
 /* Start Container */
@@ -126,9 +129,9 @@ h6 {
 
 /* Start Jumbotron */
 .jumbotron {
-    background-color: #4476a8;
-    border: 1px solid #4e1731;
-    border-radius: 4px;
+    background-color: #b1f8bd;
+    border: 1px solid #025817;
+    border-radius: 16px;
     padding: 20px 0;
 }
 .jumbotron h1 {
