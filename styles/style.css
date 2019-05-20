@@ -19,6 +19,10 @@ body {
     background-color: aliceblue; 
 }
 
+.bg-hijau2 {
+  background-color: rgb(4, 128, 10);
+}
+
 .bg-red {
     background-color: crimson;
 }
@@ -68,19 +72,19 @@ a:active {
     background-color: #65e411de; 
     border-radius: 4px;
     box-shadow: 
-        0 3px 5px -1px #a7a7a7 (0,0,0,.2),
+        0 3px 5px -1px #4ab966 (0,0,0,.2),
         0 6px 10px 0 #a7a7a7 (0,0,0,.14),
         0 1px 18px 0 #a7a7a7 (0,0,0,.12);
 }
 
 .menu-primer li {
-    border-right: 1px solid #d1d5da;
+    border-right: 1px solid #005a26;
     display: inline-block;
     margin: 0 -4px;
 }
 .menu-primer a {
-    color: #610606;
-    font-size: 13px;
+    color: #680202;
+    font-size: 17px;
     display: inline-block;
     letter-spacing: 1px;
     padding: 10px 20px;
@@ -89,14 +93,14 @@ a:active {
 }
 
 .menu-primer a:hover {
-    background-color: #f7f7f7;
+    background-color: #530caf;
     color: #000000;
     text-decoration: none;
 }
 
 .menu-primer .activ {
-    background-color: #ffffff;
-    color: #333333;
+    background-color: #00c9ec;
+    color: #e20404;
     text-decoration: none;
 }
 /* End Menu Primer */
@@ -135,8 +139,9 @@ h6 {
     padding: 20px 0;
 }
 .jumbotron h1 {
-    font-size: 32px;
-    padding: 0 20px;
+    font-size: 25px;
+    padding: 0 30px;
+    text-transform: uppercase;
 }
 .jumbotron h3 {
     font-size: 20px;
@@ -176,8 +181,8 @@ h6 {
 
 /* Start Box */
 .box-heading {
-  background-color: #f6f8fa;
-  border: 1px solid #d1d5da;
+  background-color: #03da55;
+  border: 1px solid #058d49;
   border-radius: 3px 3px 0 0;
   margin: 0;
   padding: 10px 20px;
@@ -188,8 +193,8 @@ h6 {
   margin: 0;
 }
 .box-isi {
-  background-color: #ffffff;
-  border: 1px solid #eaecef;
+  background-color: #8db87c;
+  border: 1px solid #058d49;
   border-top: 0;
   margin: 0;
   padding: 10px 20px;
@@ -198,7 +203,7 @@ h6 {
 
 /* Start Testimoni */
 .testimoni {
-  border-left: 4px solid #dfe25e;
+  border-left: 4px solid #1808a7;
   margin-left: 30px;
   padding-left: 20px;
 }
@@ -395,14 +400,14 @@ input[type="submit"],
 
 /* Start Menu Sekunder */
 .menu-sekunder {
-  background-color: #f6f8fa;
-  border-bottom: 1px solid #eaecef;
-  border-top: 1px solid #eaecef;
+  background-color: #25db71;
+  border-bottom: 1px solid #07f807;
+  border-top: 1px solid #07f807;
   overflow: auto
   padding: 10px 0;
 }
 .menu-sekunder h4 {
-  font-size: 14px;
+  font-size: 16px;
   margin: 0 auto;
   text-transform: uppercase;
 }
