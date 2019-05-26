@@ -68,40 +68,74 @@ a:active {
 /* End Anchor / Hyperlink */
 
 /* Start Menu Primer */
-.menu-primer ul {
-    background-color: #65e411de; 
-    border-radius: 4px;
-    box-shadow: 
-        0 3px 5px -1px #4ab966 (0,0,0,.2),
-        0 6px 10px 0 #a7a7a7 (0,0,0,.14),
-        0 1px 18px 0 #a7a7a7 (0,0,0,.12);
+@import url(https://fonts.googleapis.com/css?family=Work+Sans);
+.snip1526 {
+  font-family: 'Work Sans', Arial, sans-serif;
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: 400;
 }
 
-.menu-primer li {
-    border-right: 1px solid #005a26;
-    display: inline-block;
-    margin: 0 -4px;
-}
-.menu-primer a {
-    color: #680202;
-    font-size: 17px;
-    display: inline-block;
-    letter-spacing: 1px;
-    padding: 10px 20px;
-    text-transform: uppercase;
-
+.snip1526 *,
+.snip1526 *:after {
+  box-sizing: border-box;
+  -webkit-transition: all 0.25s linear;
+  transition: all 0.25s linear;
 }
 
-.menu-primer a:hover {
-    background-color: #530caf;
-    color: #000000;
-    text-decoration: none;
+.snip1526 li {
+  display: inline-block;
+  list-style: outside none none;
+  margin: 0.5em 0.6em;
+  -webkit-perspective: 50em;
+  perspective: 50em;
 }
 
-.menu-primer .activ {
-    background-color: #00c9ec;
-    color: #e20404;
-    text-decoration: none;
+.snip1526 a {
+  backface-visibility: hidden;
+  color: #ffffff;
+  display: block;
+  line-height: 2.2em;
+  padding: 0 1.4em;
+  position: relative;
+  text-decoration: none;
+  -webkit-transform-style: preserve-3d;
+  transform-style: preserve-3d;
+  background-color: #667273;
+  -webkit-transform-origin: 50% 50%;
+  -ms-transform-origin: 50% 50%;
+  transform-origin: 50% 50%;
+}
+
+.snip1526 a:after {
+  background-color: #5c122e;
+  color: transparent;
+  content: attr(data-hover);
+  top: 0%;
+  line-height: 2.2em;
+  position: absolute;
+  left: 100%;
+  width: 100%;
+  -webkit-transform: translateX(0%) rotateY(90deg);
+  transform: translateX(0%) rotateY(90deg);
+  -webkit-transform-origin: 0% 50%;
+  -ms-transform-origin: 0% 50%;
+  transform-origin: 0% 50%;
+}
+
+.snip1526 li:hover a,
+.snip1526 li.current a {
+  -webkit-transform: translate(-50%) rotateY(-90deg);
+  transform: translate(-50%) rotateY(-90deg);
+  background-color: #1e2222;
+  color: transparent;
+}
+
+.snip1526 li:hover a:after,
+.snip1526 li.current a:after {
+  background-color: #b12358;
+  color: #ffffff;
+  cursor: pointer;
 }
 /* End Menu Primer */
 
@@ -442,3 +476,5 @@ input[type="submit"],
   font-size: 15px;
 }
 /* End Copyright */
+
+/
